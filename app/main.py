@@ -23,7 +23,7 @@
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from backend_one.rag.generator import generate_response  # Adjusted import path to match project structure
+from rag.generator import generate_response  # Adjusted import path to match project structure
 
 app = FastAPI()
 
